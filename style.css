@@ -31,18 +31,25 @@ body {
     margin: 50px;
 }
 
-.card-box {
-    background-color: darkgray;
-    color: white;
-
+.card-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .card {
-    background-color: green;
-    width: 200px;
-
+    background-color: salmon;
+    width: 300px;
+    height: 600px;
+    border: 1px solid white;
 }
 
+.card>h3 {
+    font-size: 15pt;
+}
+.card>img {
+    height: 300px;
+}
+.movie-overview {
+    width:100%;
+}
